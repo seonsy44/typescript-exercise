@@ -13,7 +13,7 @@ https://typescript-exercises.github.io/
 - [x] [2단계](https://github.com/seonsy44/typescript-exercise/tree/main/src/step2)
 - [x] [3단계](https://github.com/seonsy44/typescript-exercise/tree/main/src/step3)
 - [x] [4단계](https://github.com/seonsy44/typescript-exercise/tree/main/src/step4)
-- [ ] 5단계
+- [x] [5단계](https://github.com/seonsy44/typescript-exercise/tree/main/src/step5)
 - [ ] 6단계
 - [ ] 7단계
 - [ ] 8단계
