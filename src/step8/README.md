@@ -54,7 +54,7 @@ persons.filter(isPowerUser).forEach(logPerson);
 type PowerUser = unknown;
 ```
 
-- type 'powerUser' 필드를 가지고, `User`와 `Admin` 두 타입의 type필드를 제외한 모든 필드를 가지는 `PowerUser` 타입을 정의해야 한다.
+- type 'powerUser' 필드를 갖고, `User`와 `Admin` 두 타입의 type필드를 제외한 모든 필드를 갖는 `PowerUser` 타입을 정의해야 한다.
 
 <br/>
 
@@ -62,4 +62,4 @@ type PowerUser = unknown;
 type PowerUser = { type: "powerUser" } & Omit<User, "type"> & Omit<Admin, "type">;
 ```
 
-- intersections(&)과 Omit 유틸리티를 이용해 간단히 해결 가능한다.
+- intersections(&)과 Omit 유틸리티를 이용해 간단히 해결 가능하다.
